@@ -9,9 +9,12 @@ a Cloudant database hosted in the IBM Cloud.
 ## Running this app
 This app is designed to be run four different ways:
 
+asdga
 1. As a standalone app running on your machine
 2. As a Cloud Foundry app running in the IBM Cloud
 3. In a Docker container running on your machineggg
 4. In a Kubernetes cluster running in the IBM Cloud
 "# raph-helloworld2"
 ##test something rt
+
+test
