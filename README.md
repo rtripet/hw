@@ -10,12 +10,8 @@ a Cloudant database hosted in the IBM Cloud.
 This app is designed to be run four different ways:
 
 1. As a standalone app running on your machine
-1. As a Cloud Foundry app running in the IBM Cloud
-1. In a Docker container running on your machine
-1. In a Kubernetes cluster running in the IBM Cloud
+2. As a Cloud Foundry app running in the IBM Cloud
+3. In a Docker container running on your machineggg
+4. In a Kubernetes cluster running in the IBM Cloud
 "# raph-helloworld2"
 ##test something rt
-
-
-FROM GITHUB CHANGE
-Super
