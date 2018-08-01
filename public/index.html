@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Nimbus Bank Webinars</title>
+
+    <!-- Use the maxcdn network to get Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+
+  <body>
+    <section id="intro" class="container">
+      <div class="row" style="padding-top: 8%;">
+        <div class="col-sm-offset-1 col-sm-2">
+          <img class="newappIcon" src="images/newapp-icon.png"/>
+        </div>
+        <div class="col-sm-offset-1 col-sm-7">
+          <h1>Kula Foods - Vendor Application</h1>
+          <p style="padding-top: 20px;">Please fill all your informations :-)</p>
+          
+        </div>
+      </div>
+      <div class="row">
+        <hr class="col-sm-offset-1 col-sm-10 blue"/>
+      </div>
+      <div class="row">
+        <form class="form-horizontal" method="post" action="/registration"
+          role="form" id="registration-form">
+          <div class="controls">
+		  
+		  
+		  <p class="col-sm-offset-4 col-sm-8 green"
+            style="font-weight: bold;">
+            Restaurant details:</p>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="restaurantName">Restaurant name:</label>
+            <div class="col-sm-3">
+              <input class="form-control" type="text" id="restaurantName"
+                name="restaurantName" placeholder="Restaurant name">
+            </div>
+            <label class="col-sm-1 control-label" for="phoneWork">Phone: </label>
+            <div class="col-sm-3">
+              <input class="form-control" type="tel" id="phoneWork"
+                name="phoneWork" placeholder="Phone number">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 col-sm-offset-2 control-label"
+              for="email">Email:</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="email" id="email" name="email"
+                placeholder="you@example.com">
+            </div>
+          </div>
+		  <div class="row">
+			<hr class="col-sm-offset-3 col-sm-7 blue"/>
+		  </div>
+		  
+		  
+		  <p class="col-sm-offset-4 col-sm-8 green"
+            style="font-weight: bold;">
+            Restaurant address:</p>
+          <div class="form-group">
+            <label class="col-sm-2 col-sm-offset-2 control-label"
+              for="retsaurantStreet">Street:</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="text" id="retsaurantStreet"
+                name="retsaurantStreet" placeholder="12/56 George street">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 col-sm-offset-2 control-label"
+              for="suburb">Town/Suburb:</label>
+            <div class="col-sm-3">
+              <input class="form-control" type="text" id="suburb" name="suburb"
+                placeholder="Any town">
+            </div>
+            <label class="col-sm-1 control-label" for="state">State:</label>
+            <div class="col-sm-3">
+              <input class="form-control" type="text" id="state" name="state"
+                placeholder="NSW">
+            </div>
+          </div>
+          <div class="form-group">
+			<label class="col-sm-2 col-sm-offset-2 control-label" for="postcode">Postcode:</label>
+            <div class="col-sm-3">
+              <input class="form-control" type="text" id="postcode" name="postcode"
+                placeholder="2000">
+            </div>
+          </div>
+		  <div class="row">
+			<hr class="col-sm-offset-3 col-sm-7 blue"/>
+		  </div>
+		  
+		  
+		  <p class="col-sm-offset-4 col-sm-8 green"
+            style="font-weight: bold;">
+            Restaurant Owner details:</p>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="firstName">First name:</label>
+            <div class="col-sm-3">
+              <input class="form-control" type="text" id="firstName"
+                name="firstName" placeholder="First name">
+            </div>
+            <label class="col-sm-1 control-label" for="lastName">Last: </label>
+            <div class="col-sm-3">
+              <input class="form-control" type="text" id="lastName"
+                name="lastName" placeholder="Last name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="roMobile">Mobile :</label>
+            <div class="col-sm-3">
+              <input class="form-control" type="tel" id="roMobile"
+                name="roMobile" placeholder="Mobile number">
+            </div>
+            <label class="col-sm-1 control-label" for="roLandline">Landline: </label>
+            <div class="col-sm-3">
+              <input class="form-control" type="tel" id="roLandline"
+                name="roLandline" placeholder="Landline number">
+            </div>
+          </div>
+		  <div class="row">
+			<hr class="col-sm-offset-3 col-sm-7 blue"/>
+		  </div>
+		  
+		  
+		  <p class="col-sm-offset-4 col-sm-8 green"
+            style="font-weight: bold;">
+            Company details:</p>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="companyName">Company name:</label>
+            <div class="col-sm-3">
+              <input class="form-control" type="text" id="companyName"
+                name="companyName" placeholder="Company/Entity name">
+            </div>
+            <label class="col-sm-1 control-label" for="abn">ABN: </label>
+            <div class="col-sm-3">
+              <input class="form-control" type="number" id="abn"
+                name="abn" placeholder="Australian Business Number">
+            </div>
+          </div>
+		  <div class="row">
+			<hr class="col-sm-offset-3 col-sm-7 blue"/>
+		  </div>
+		  
+		  		  
+		  <p class="col-sm-offset-4 col-sm-8 green"
+            style="font-weight: bold;">
+            Nominated Bank details:</p>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="bankName">Bank name:</label>
+            <div class="col-sm-3">
+              <input class="form-control" type="text" id="bankName"
+                name="bankName" placeholder="Bank name">
+            </div>
+            <label class="col-sm-1 control-label" for="bsbNr">BSB: </label>
+            <div class="col-sm-3">
+              <input class="form-control" type="number" id="bsbNr"
+                name="bsbNr" placeholder="BSB number">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="bankAccName">Account name :</label>
+            <div class="col-sm-3">
+              <input class="form-control" type="text" id="bankAccName"
+                name="bankAccName" placeholder="Bank account name">
+            </div>
+            <label class="col-sm-2 control-label" for="bankAccNr">Account number:</label>
+            <div class="col-sm-2">
+              <input class="form-control" type="number" id="bankAccNr"
+                name="bankAccNr" placeholder="Bank account number">
+            </div>
+          </div>
+		  <div class="row">
+			<hr class="col-sm-offset-3 col-sm-7 blue"/>
+		  </div>
+		  
+		  
+		  <p class="col-sm-offset-4 col-sm-8 green"
+            style="font-weight: bold;">
+            Order details:</p>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="minOrderDel">Min. order for delivery ($):</label>
+            <div class="col-sm-2">
+              <input class="form-control" type="number" id="minOrderDel"
+                name="minOrderDel" placeholder="25">
+            </div>
+            <label class="col-sm-3 control-label" for="freeDelOver">Free Delivery over ($): </label>
+            <div class="col-sm-2">
+              <input class="form-control" type="number" id="freeDelOver"
+                name="freeDelOver" placeholder="60">
+            </div>
+          </div>
+		  <div class="row">
+			<hr class="col-sm-offset-3 col-sm-7 blue"/>
+		  </div>
+		  
+		  
+		  <p class="col-sm-offset-4 col-sm-8 green"
+            style="font-weight: bold;">
+            Pick up/Delivery hours details:</p>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="pickupDayHour">Pick up days and hours:</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="text" id="pickupDayHour"
+                name="pickupDayHour" placeholder="Mon-Fri 7am-9pm; Sat-Sun 9am-15pm">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="delDayHour">Delivery days and hours:</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="text" id="delDayHour" name="delDayHour"
+                placeholder="Mon-Fri 7am-9pm; Sat-Sun 9am-15pm">
+            </div>
+          </div>
+		  <div class="row">
+			<hr class="col-sm-offset-3 col-sm-7 blue"/>
+		  </div>
+		    
+		  
+		  <p class="col-sm-offset-4 col-sm-8 green"
+            style="font-weight: bold;">
+            Delivery Suburbs and Fees:</p>
+          <div class="form-group">
+            <label class="col-sm-3 col-sm-offset-1 control-label"
+              for="delSubFee">Suburbs and Fees ($):</label>
+            <div class="col-sm-7">
+              <input class="form-control" type="text" id="delSubFee"
+                name="delSubFee" placeholder="Belmore,4;Sydney,0">
+            </div>
+          </div>
+		  <div class="row">
+			<hr class="col-sm-offset-3 col-sm-7 blue"/>
+		  </div>
+
+          <div class="form-group">
+            <div class="col-sm-offset-4 col-sm-8">
+              <button class="btn btn-lg"
+                style="border: none; background-color: #00aed1; font-weight: bold;"
+                type="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+	  
+      <div class="row">
+        <hr class="col-sm-offset-1 col-sm-10 blue"/>
+      </div>
+		  
+    </section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </body>
+</html>
